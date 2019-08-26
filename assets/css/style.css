@@ -2,3 +2,10 @@ body {
     background-image: url(../images/debut_light_@2X.png)
 }
 
+@media screen and (max-width: 768px){
+
+    .card {
+        margin: 0 auto;
+    }
+
+}
