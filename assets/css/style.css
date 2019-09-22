@@ -2,6 +2,10 @@ body {
     background-image: url(../images/debut_light_@2X.png)
 }
 
+#hungryText {
+    font-size: 1.8rem !important;
+}
+
 @media screen and (max-width: 768px){
 
     .card {
