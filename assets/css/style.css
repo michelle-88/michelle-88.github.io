@@ -1,9 +1,21 @@
 body {
-    background-image: url(../images/debut_light_@2X.png)
+    background-image: url("../images/grey_@2X.png");
 }
 
-#hungryText {
-    font-size: 1.8rem !important;
+.navbar {
+    background: #00bfa5;
+}
+
+.page-footer {
+    background: #00bfa5;
+}
+
+.btn {
+    background: #00bfa5;
+}
+
+.title-text {
+    color: #00bfa5;
 }
 
 @media screen and (max-width: 768px){

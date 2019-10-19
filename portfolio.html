@@ -6,9 +6,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SYbiks6VdZNAKT8DNoXQZwXAiuUo5/quw6nMKtFlGO/4WwxW86BSTMtgdzzB9JJl" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
   <!-- Personal CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Portfolio</title>
@@ -16,113 +34,241 @@
 
 <body>
   <!-- Navbar with page links -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <a class="navbar-brand" href="index.html">Michelle Mesorana</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark">
+    <span class="navbar-brand"><strong>Michelle Mesorana</strong></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+      aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mr-4 mt-2 mt-lg-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="index.html">
+            <i class="far fa-address-card"></i> About            
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">
+            <i class="far fa-folder-open"></i> Portfolio
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">
+            <i class="far fa-envelope"></i> Contact
+          </a>
         </li>
       </ul>
     </div>
   </nav>
 
   <!-- Container with portfolio images -->
-
   <div class="container">
     <div class="mt-4 mb-2 row">
-      <div class="col-12 col-lg-3 ml-xl-n3 ml-lg-0 ml-md-n3">
-      <h1 class="text-success display-4 text-center">Portfolio</h1>
-      </div>
+      <h1 class="display-4 text-center title-text">Portfolio</h1>
     </div>
 
-    <div class="row mb-3">
+      <div class="row mb-3">
+        <div class="card-deck">
+            <!-- Portfolio Card 1 -->
+            <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/psychic.jpg" alt="Psychic">
+              <a href="https://michelle-88.github.io/Psychic-Game/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Psychic Game</h4>
+              <p class="card-text">A letter guess game built using HTML, CSS, and JavaScript.</p>
+              <a class="btn btn-md white-text" href="https://michelle-88.github.io/Psychic-Game/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
 
-      <!-- Portfolio Image 1 -->
-    <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/psychic.jpg" class="card-img-top img-fluid" alt="Psychic Game">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/Psychic-Game/" class="stretched-link text-decoration-none text-reset"><h1 class="text-center">Psychic Game</h1></a>
-        </div>
-      </div>
-    </div>
-      <!-- Portfolio Image 2 -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/infinity-stones.jpg" class="card-img-top" alt="Infinity Stones">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/Unit-4-Game/" class="stretched-link text-decoration-none text-reset"><h1 class="text-center">Crystal Game</h1></a>
-        </div>
-      </div>
-      </div>
-      <!-- Portfolio Image 3 -->
-    <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/dsny-logo.jpg" class="card-img-top" alt="Disney Trivia">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/TriviaGame/" class="stretched-link text-decoration-none text-reset"><h1 class="text-center">Trivia Game</h1></a>
-        </div>
-      </div>
-    </div>
+          <!-- Portfolio Card 2 -->
+          <div class="card mb-4">
+              <div class="view overlay">
+                <img class="card-img-top" src="assets/images/infinity-stones.jpg" alt="Infinity Stones">
+                <a href="https://michelle-88.github.io/Unit-4-Game/">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Crystal Game</h4>
+                <p class="card-text">An interactive game built with jQuery. Click on the crystals to reach the target score!</p>
+                <a class="btn btn-md white-text" href="https://michelle-88.github.io/Unit-4-Game/"><i class="fas fa-clone left"></i> View project</a>
+              </div>      
+          </div>
 
-      <!-- Portfolio Image 4 -->
-    <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/giphy-magic.jpg" class="card-img-top" alt="GIF Search">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/GifTastic/" class="stretched-link text-decoration-none text-reset"><h1 class="text-center">GIF Search</h1></a>
-        </div>
-      </div>
-      </div>
-      <!-- Portfolio Image 5 -->
-      <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/train-image.jpg" class="card-img-top" alt="Train Scheduler">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/Train-Scheduler/" class="stretched-link text-decoration-none text-reset"><h1 class="text-center">Train Scheduler</h1></a>
-        </div>
-      </div>
-    </div>
-      <!-- Portfolio Image 6 -->
-    <div class="col-12 col-md-6 col-lg-4 mb-5">
-      <div class="card border-success" style="width: 18rem;">
-        <img src="assets/images/yelp-search.jpg" class="card-img-top" alt="Hungry For Justice">
-        <div class="card-body">
-          <a href="https://michelle-88.github.io/HungryForJustice/" class="stretched-link text-decoration-none text-reset"><h1 id="hungryText" class="text-center">Hungry For Justice</h1></a>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  </div>
+          <!-- Portfolio Card 3 -->
+          <div class="card mb-4">
+              <div class="view overlay">
+                <img class="card-img-top" src="assets/images/dsny-logo.jpg" alt="Disney Trivia">
+                <a href="https://michelle-88.github.io/TriviaGame/">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Trivia Game</h4>
+                <p class="card-text">An interactive, timed trivia game built using JavaScript and jQuery.</p>
+                <a class="btn btn-md white-text" href="https://michelle-88.github.io/TriviaGame/"><i class="fas fa-clone left"></i> View project</a>
+              </div>      
+          </div>
 
+        </div>
+      </div>
 
-  <!-- Footer -->
-  <nav class="footer-copyright fixed-bottom text-center text-white bg-success py-2">
-    Copyright &copy; 2019
-  </nav>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+      <!-- Second Row of Cards -->
+      <div class="row mb-3">
+        <div class="card-deck">
+            <!-- Portfolio Card 4 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/giphy-magic.jpg" alt="Giphy App">
+              <a href="https://michelle-88.github.io/GifTastic/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">GIF Search</h4>
+              <p class="card-text">A dynamic GIF search web page built using HTML, JavaScript, and jQuery.</p>
+              <a class="btn btn-md white-text" href="https://michelle-88.github.io/GifTastic/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+  
+          <!-- Portfolio Card 5 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/train-image.jpg" alt="Train Scheduler">
+              <a href="https://michelle-88.github.io/Train-Scheduler/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Train Scheduler</h4>
+              <p class="card-text">A dynamic train scheduling app built using JavaScript, jQuery, and a Firebase database.</p>
+              <a class="btn btn-md white-text" href="https://michelle-88.github.io/Train-Scheduler/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+  
+          <!-- Portfolio Card 6 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/yelp-search.jpg" alt="Hungry For Justice">
+              <a href="https://michelle-88.github.io/HungryForJustice/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Hungry For Justice</h4>
+              <p class="card-text">A web-based app that cross-references restaurant locations with crime data.</p>
+              <a class="btn btn-md white-text" href="https://michelle-88.github.io/HungryForJustice/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+  
+        </div>
+        </div>
+
+      <!-- Third Row of Cards -->
+      <div class="row mb-3">
+          <div class="card-deck">
+              <!-- Portfolio Card 7 -->
+            <div class="card mb-4">
+              <div class="view overlay">
+                <img class="card-img-top" src="assets/images/LIRI.jpg" alt="LIRI App">
+                <a href="https://github.com/michelle-88/LIRI-Node-App">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">LIRI App</h4>
+                <p class="card-text">A command line Node app that provides movie, music, and concert data based on given parameters.</p>
+                <a class="btn btn-md white-text" href="https://github.com/michelle-88/LIRI-Node-App"><i class="fas fa-clone left"></i> View project</a>
+              </div>      
+          </div>
+    
+          <!-- Portfolio Card 8 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/bamazon.jpg" alt="Bamazon App">
+              <a href="https://github.com/michelle-88/Bamazon-App">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title mt-2">Bamazon App</h4>
+              <p class="card-text">A digital storefront built using Node.js and MySQL.</p>
+              <a class="btn btn-md white-text" href="https://github.com/michelle-88/Bamazon-App"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+    
+          <!-- Portfolio Card 9 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/happy-group-of-friends.jpg" alt="Friend Finder">
+              <a href="https://calm-reaches-09158.herokuapp.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Friend Finder</h4>
+              <p class="card-text">A friend-matching application built using Node, Express, and HTML.</p>
+              <a class="btn btn-md white-text" href="https://calm-reaches-09158.herokuapp.com/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Row of Cards -->
+      <div class="row mb-3">
+          <div class="card-deck">
+              <!-- Portfolio Card 10 -->
+            <div class="card mb-4">
+              <div class="view overlay">
+                <img class="card-img-top" src="assets/images/retro-diner-copy.jpg" alt="Burger App">
+                <a href="https://boiling-hamlet-55298.herokuapp.com/">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Burger Logger</h4>
+                <p class="card-text">A burger logger app built with Node, Express, Handlebars, MySQL, and Sequelize. This app's structure follows the MVC pattern.</p>
+                <a class="btn btn-md white-text" href="https://boiling-hamlet-55298.herokuapp.com/"><i class="fas fa-clone left"></i> View project</a>
+              </div>      
+          </div>
+    
+          <!-- Portfolio Card 11 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/cat-dog-copy.jpg" alt="Pet-spress Yourself">
+              <a href="https://pet-spress-yourself.herokuapp.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title mt-2">Pet-spress Yourself</h4>
+              <p class="card-text">A full-stack web application that matches users with their ideal pet match.</p>
+              <a class="btn btn-md white-text" href="https://pet-spress-yourself.herokuapp.com/"><i class="fas fa-clone left"></i> View project</a>
+            </div>      
+          </div>
+    
+          <!-- Portfolio Card 12 -->
+          <div class="card mb-4">
+            <div class="view overlay">
+              <img class="card-img-top" src="assets/images/loading.jpeg" alt="Coming Soon">
+              <a href="">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Untitled Project</h4>
+              <p class="card-text">Coming Soon...</p>
+              <button class="btn btn-md white-text" disabled><i class="fas fa-clone left"></i> Coming Soon</button>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>

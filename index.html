@@ -5,47 +5,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css" rel="stylesheet" integrity="sha384-SYbiks6VdZNAKT8DNoXQZwXAiuUo5/quw6nMKtFlGO/4WwxW86BSTMtgdzzB9JJl" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
     <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>About Me</title>
   </head>
 
   <body>
-<!-- Navbar with page links -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-          <a class="navbar-brand ml-4" href="index.html">Michelle Mesorana</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mr-4 mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+  <!-- Navbar with page links -->
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark">
+      <span class="navbar-brand"><strong>Michelle Mesorana</strong></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <i class="far fa-address-card"></i> About 
+              <span class="sr-only">(current)</span>           
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">
+              <i class="far fa-folder-open"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              <i class="far fa-envelope"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
 <!-- Container with bio and profile picture -->
         <div class="container">
           <div class="mt-5 mb-2 row">
             <div class="col-12 col-lg-4">
-              <h1 class="text-success display-4 text-center text-lg-right">About Me</h1>
+              <h1 class="display-4 text-center title-text text-lg-right">About Me</h1>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-lg-6">
               <img src="assets/images/IMG_0477.JPG" class="rounded mx-auto d-block mb-5" alt="Profile Picture">
             </div>
-            <div class="col-12 col-lg-6 mb-2 pb-5 pt-xl-5 mt-xl-2">
+            <div class="col-12 col-lg-6 pb-4 mt-xl-3">
                 <p class="text-justify">I am a UCF graduate and former healthcare professional who's excited to enter the world of web
                     development! I was born in San Juan, Puerto Rico, but have spent the majority of my life in the Central
                     Florida area. I have always had a passion for science and technology, which led me to my first career
@@ -62,14 +89,10 @@
           </div>
         </div>
 
-  <!-- Footer -->
-  <nav class="footer-copyright fixed-bottom text-center text-white bg-success py-2">
-      Copyright &copy; 2019
-  </nav>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="page-footer font-small fixed-bottom">
+        <div class="footer-copyright text-center py-1">© 2019 Copyright</div>
+    </footer>
+
   </body>
 </html>
